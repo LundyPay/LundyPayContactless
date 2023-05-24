@@ -1,4 +1,4 @@
-# LundyPay Mobile App
+# LundyPay Contactless App
 A free and open source alternative to Google Pay/Google Wallet.
 
 ## Scope
@@ -11,6 +11,7 @@ This project doesn't aim to act as a replacement for Google Pay within apps (at 
 | | Minimum Requirements | Recommended Requirements |
 |-|-|-|
 | Android Version | 9 | 11 or newer |
+| Additional Requirements | NFC Support | NFC Support |
 
 ## Intended Distribution Platforms
 * F-Droid

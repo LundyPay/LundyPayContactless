@@ -11,3 +11,7 @@ This project doesn't aim to act as a replacement for Google Pay within apps (at 
 | | Minimum Requirements | Recommended Requirements |
 |-|-|-|
 | Android Version | 9 | 11 or newer |
+
+## Intended Distribution Platforms
+* F-Droid
+* Google Play Store

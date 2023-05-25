@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LundyPay Contactless</string>
+    <string name="servicedesc" />
+    <string name="diners_aid_desc" />
+    <string name="mastercard_aid_desc" />
+    <string name="visa_aid_desc" />
+    <string name="amex_aid_desc" />
+    <string name="unionpay_aid_desc" />
+    <string name="uk_postoffice_aid_desc" />
+    <string name="jcb_aid_desc" />
 </resources>

@@ -8,4 +8,5 @@
     <string name="unionpay_aid_desc" />
     <string name="uk_postoffice_aid_desc" />
     <string name="jcb_aid_desc" />
+    <string name="cb_aid_desc" />
 </resources>

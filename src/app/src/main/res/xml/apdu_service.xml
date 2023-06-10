@@ -3,4 +3,76 @@
 <host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/servicedesc"
     android:requireDeviceUnlock="false">
+    <aid-group android:description="@string/mastercard_aid_desc"
+        android:category="payment">
+
+        <!-- Standard MasterCard !-->
+        <aid-filter android:name="A0000000041010"/>
+        <!-- MasterCard PayPass !-->
+        <aid-filter android:name="A00000000401"/>
+
+        <!-- Maestro UK !-->
+        <aid-filter android:name="A0000000050001"/>
+
+        <!-- Solo !-->
+        <aid-filter android:name="A0000000050002"/>
+
+        <!-- Maestro Debit !-->
+        <aid-filter android:name="A0000000043060"/>
+    </aid-group>
+    <aid-group android:description="@string/visa_aid_desc" android:category="payment">
+        <!-- Visa Credit !-->
+        <aid-filter android:name="A000000003101001"/>
+        <!-- Visa Debit !-->
+        <aid-filter android:name="A000000003101002"/>
+        <!-- Visa Electron !-->
+        <aid-filter android:name="A0000000032010"/>
+        <!-- V-Pay !-->
+        <aid-filter android:name="A0000000032020"/>
+
+        <!-- Visa Plus !-->
+        <aid-filter android:name="A0000000038010"/>
+        <!-- Visa Loyalty !-->
+        <aid-filter android:name="A0000000039010"/>
+
+        <!-- Bank of America Visa Debit !-->
+        <aid-filter android:name="A000000098"/>
+
+    </aid-group>
+    <aid-group android:description="@string/amex_aid_desc" android:category="payment">
+
+        <!-- Amex Credit/Debit !-->
+        <aid-filter android:name="A0000000250000"/>
+    </aid-group>
+    <aid-group android:description="@string/unionpay_aid_desc" android:category="payment">
+
+        <!-- UnionPay Debit !-->
+        <aid-filter android:name="A000000333010101"/>
+
+        <!-- UnionPay Credit !-->
+        <aid-filter android:name="A000000333010102"/>
+
+        <!-- UnionPay Electronic Cash !-->
+        <aid-filter android:name="A000000333010106"/>
+    </aid-group>
+    <aid-group android:description="@string/diners_aid_desc" android:category="payment">
+
+        <!-- Discover !-->
+        <aid-filter android:name="A0000001523010"/>
+
+        <!-- Diners Club !-->
+        <aid-filter android:name="A0000001884443"/>
+
+    </aid-group>
+    <aid-group android:description="@string/jcb_aid_desc" android:category="payment">
+        <!-- JCB Standard !-->
+        <aid-filter android:name="A00000006510"/>
+
+        <!-- JCM J Smart Card !-->
+        <aid-filter android:name="A0000000651010"/>
+    </aid-group>
+    <aid-group android:description="@string/cb_aid_desc" android:category="payment">
+        <!-- CB !-->
+        <aid-filter android:name="A0000000422010"/>
+    </aid-group>
 </host-apdu-service>

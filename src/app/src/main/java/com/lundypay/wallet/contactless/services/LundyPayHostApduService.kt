@@ -10,6 +10,14 @@ class LundyPayHostApduService : HostApduService() {
 
     override fun onDeactivated(reason: Int) {
         TODO("Not yet implemented")
+        //NFC Link being lost
+       if(reason == 0){
+
+       }
+        //Different AID selected.
+        else{
+
+       }
     }
 
 
